@@ -1,0 +1,7 @@
+{
+  "type": "material",
+  "name": "Phosphorus",
+  "description": "A material with weird thermal properties. Can be seperated into ammo for for turrets",
+  "cost": 2.2,
+  "color": "ab4646"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "resource",
+  "name": "Enriched Uranium",
+  "description": "Nuclear material that can be used to make Nuclear Alloy",
+  "cost": 2.0,
+  "color": "62ed45"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "SingleTypeGenerator",
+  "name": "Nuclear Reactor",
+  "description": "Uses nuclear alloy to produce energy.",
+  "size": 3,
+  "hasPower": true,
+  "hasItems": true,
+  "itemDuration": 30,
+  "powerProduction": 25.0,
+  "consumes": {
+    "items": {
+      "items": [{ "item": "nuclear-alloy", "amount": 1 }]
+    }
+  },
+  "requirements": [
+    { "item": "thorium", "amount": 150 },
+    { "item": "silicon", "amount": 80 },
+    { "item": "graphite", "amount": 100 },
+    { "item": "lead", "amount": 400 },
+    { "item": "metaglass", "amount": 75 },
+    { "item": "plutonium", "amount": 60 }
+  ],
+  "category": "power",
+  "research": "thorium-reactor"
+}

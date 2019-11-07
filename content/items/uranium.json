@@ -1,0 +1,7 @@
+{
+  "type": "resource",
+  "name": "Uranium",
+  "description": "Nuclear material that needs to go through enrichment before it can be used",
+  "cost": 1.2,
+  "color": "4b5948"
+}

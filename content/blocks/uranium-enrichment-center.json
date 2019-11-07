@@ -1,0 +1,33 @@
+{
+  "type": "GenericSmelter",
+  "name": "Uranium Enrichment Center",
+  "description": "Filters uranium to get enriched uranium",
+  "liquidCapacity": 50,
+  "outputItem": { "item": "enriched-uranium", "amount": 1 },
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "craftTime": 60,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 0.7,
+    "items": {
+      "items": [{ "item": "uranium", "amount": 2 }]
+    },
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.125
+    }
+  },
+  "requirements": [
+    { "item": "lead", "amount": 100 },
+    { "item": "thorium", "amount": 40 },
+    { "item": "silicon", "amount": 60 },
+    { "item": "graphite", "amount": 60 }
+  ],
+  "category": "crafting",
+  "research": "multi-press",
+  "idleSound": "respawning",
+  "idleSoundVolume": 0.5
+}

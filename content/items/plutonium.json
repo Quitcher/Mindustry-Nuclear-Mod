@@ -1,0 +1,7 @@
+{
+  "type": "material",
+  "name": "Plutonium",
+  "description": "A radioactive metal used to make nuclear stuff",
+  "cost": 2.2,
+  "color": "5a7278"
+}
